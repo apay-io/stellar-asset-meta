@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "stellar-asset-meta",
+  "version": "1.0.0",
+  "description": "Endpoint to obtain Stellar asset metadata in 1 request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "umbrel <s@apay.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5"
+  }
+}
